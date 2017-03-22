@@ -1,5 +1,6 @@
 import Home from '../components/Home';
 import About from '../components/About';
+import Awesome from '../components/Awesome';
 
 export default {
     home: {
@@ -15,5 +16,12 @@ export default {
         page: 'about',
         title: 'About',
         handler: About
+    },
+    awesome: {
+        path: '/awesome',
+        method: 'get',
+        page: 'awesome',
+        title: 'Awesome Page',
+        handler: Awesome
     }
 };
