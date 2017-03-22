@@ -6,7 +6,7 @@ var webpackConfig = {
         extensions: ['', '.js', '.jsx']
     },
     entry: [
-        'webpack-dev-server/client?http://localhost:3000',
+        'webpack-dev-server/client?http://localhost:1337',
         'webpack/hot/only-dev-server',
         './client.js'
     ],
